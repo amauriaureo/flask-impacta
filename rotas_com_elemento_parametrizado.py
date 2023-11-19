@@ -15,3 +15,7 @@ def frutas(nome_fruta):
     if nome_fruta in cores_frutas:
         return cores_frutas[nome_fruta]
     return "Não sei"
+
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8765)
