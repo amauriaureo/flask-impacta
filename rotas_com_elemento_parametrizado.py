@@ -8,3 +8,5 @@ cores_frutas = {
     "abacaxi": "amarelo",
     "limao": "verde",
 }
+
+@app.route("/frutas/<nome_fruta>/cor")
